@@ -97,7 +97,8 @@ fun! AnsiEsc#AnsiEsc(rebuild)
    endif
   endif
 
-  syn clear
+  " NOTE: Do NOT reset syntax highlighting
+  "syn clear
 
   " suppress escaped sequences that don't involve colors (which may or may not be ansi-compliant)
   if has("conceal")

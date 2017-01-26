@@ -48,8 +48,8 @@ fun! AnsiEsc#AnsiEsc(rebuild)
    if exists("s:colekeep_{bufnr('%')}")|let &l:cole= s:colekeep_{bufnr('%')}|unlet s:colekeep_{bufnr('%')}|endif
    if exists("s:cocukeep_{bufnr('%')}")|let &l:cocu= s:cocukeep_{bufnr('%')}|unlet s:cocukeep_{bufnr('%')}|endif
    hi! link ansiStop NONE
-   syn clear
-   hi  clear
+   "syn clear
+   "hi  clear
    syn reset
    exe "set ft=".s:AnsiEsc_ft_{bn}
    if exists("colorname")|exe "colors ".colorname|endif

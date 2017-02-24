@@ -13,11 +13,11 @@ syntax system.
 This plugin follows the standard runtime path structure, and as such it can be installed with a
 variety of plugin managers:
 *  [Pathogen](https://github.com/tpope/vim-pathogen)
-  *  `git clone https://github.com/daidodo/DoxygenToolkit.vim ~/.vim/bundle/DoxygenToolkit.vim`
+  *  `git clone https://github.com/daidodo/Improved-AnsiEsc ~/.vim/bundle/Improved-AnsiEsc`
 *  [NeoBundle](https://github.com/Shougo/neobundle.vim)
-  *  `NeoBundle 'daidodo/DoxygenToolkit.vim'`
+  *  `NeoBundle 'daidodo/Improved-AnsiEsc'`
 *  [Vundle](https://github.com/gmarik/vundle)
-  *  `Plugin 'daidodo/DoxygenToolkit.vim'`
+  *  `Plugin 'daidodo/Improved-AnsiEsc'`
 *  [Plug](https://github.com/junegunn/vim-plug)
-  *  `Plug 'daidodo/DoxygenToolkit.vim'`
+  *  `Plug 'daidodo/Improved-AnsiEsc'`
 

@@ -5,8 +5,8 @@ This project is based on [vim-scripts/Improved-AnsiEsc](https://github.com/vim-s
 *AnsiEsc* is a Vim plugin to show [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
 properly.
 
-This repository improve *AnsiEsc* slightly to avoid some conflicts between ANSI ESC code and Vim
-syntax system.
+This project improves *AnsiEsc* slightly by fixing some conflicts between ANSI ESC code and Vim
+syntax system, and makes it more friendly with other syntax settings.
 
 # Installation
 
